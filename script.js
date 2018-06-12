@@ -22,19 +22,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 var body = document.getElementsByTagName("body")
 
 
@@ -75,27 +62,25 @@ containerTab.appendChild(tab);
 
  }
 
-var cell = document.getElementsByClassName("cellule");
+// var cell = document.getElementsByClassName("cellule");
 
 var plateau = document.getElementById('plateau');
 
-plateau.rows[5].cells[0].style.backgroundColor = "red"
+plateau.rows[2].cells[5].style.backgroundColor = "red"
 
 // console.log(grillCell[1]);
-
-
-
-
-
 
 // var resultGrill =
 
 var depart = document.getElementsByClassName('depart');
     for (var i = 0; i < depart.length; i++) {
         function drop() {
-            var jeton = document.createElement("p");
-
-
+            var col=plateau.cells
+            var k= i
+            for (var j = 0; j <1; j++) {
+            plateau.rows[0].cells[k].style.backgroundColor = "red"
+            }
+this.style.backgroundColor="red"
             // body[0].appendChild(jeton);
 
         }
