@@ -1,4 +1,39 @@
 
+var matrix = [[,,,,,,],[,,,,,,],[,,,,,,],[,,,,,,],[,,,,,,],[,,,,,,],[,,,,,,],]
+
+
+
+console.log(matrix[0][1]);
+
+
+
+
+for (var i = 0; i < matrix.length; i++) {
+
+       for (var j = 0; j < 7; j++) {
+
+       }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 var body = document.getElementsByTagName("body")
 
 
@@ -15,7 +50,7 @@ for (var i = 0; i < 1; i++) {
         launch.appendChild(tr);
         for (var j = 0; j < 7; j++) {
             var td = document.createElement("td");
-            td.className = "départ";
+            td.className = "depart";
             tr.appendChild(td);
         }
 }
@@ -38,11 +73,19 @@ containerTab.appendChild(tab);
         }
 
  }
+var cell = document.getElementsByClassName("cellule")
 
-function drop() {
+ console.log(cell[7]);6
 
-}
-var départ = document.getElementsByClassName('départ');
-    for (var i = 0; i < départ.length; i++) {
-        départ[i].addEventListener("click", drop);
+
+var depart = document.getElementsByClassName('depart');
+    for (var i = 0; i < depart.length; i++) {
+        function drop() {
+            var jeton = document.createElement("p");
+
+
+            // body[0].appendChild(jeton);
+
+        }
+        depart[i].addEventListener("click", drop);
     }
