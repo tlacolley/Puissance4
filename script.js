@@ -65,24 +65,37 @@ containerTab.appendChild(tab);
 // var cell = document.getElementsByClassName("cellule");
 
 var plateau = document.getElementById('plateau');
-
-plateau.rows[2].cells[5].style.backgroundColor = "red"
+var grill = Array.from(plateau);
+//plateau.rows[2].cells[5].style.backgroundColor = "red"
 
 // console.log(grillCell[1]);
+for(var j = 0; j< grill.length; j++){
+
+
+    console.log("grill");
+
+}
+
 
 // var resultGrill =
 
-var depart = document.getElementsByClassName('depart');
-    for (var i = 0; i < depart.length; i++) {
-        function drop() {
-            var col=plateau.cells
-            var k= i
-            for (var j = 0; j <1; j++) {
-            plateau.rows[0].cells[k].style.backgroundColor = "red"
-            }
-this.style.backgroundColor="red"
-            // body[0].appendChild(jeton);
+var depart = Array.from(document.getElementsByClassName('depart'));
+for (var i = 0; i < depart.length; i++) {
+    function drop() {
+        var colIndex = depart.indexOf(this);
+         var rowIndex = 5;
 
-        }
-        depart[i].addEventListener("click", drop);
+
+
+
+
+         plateau.rows[rowIndex].cells[colIndex].style.backgroundColor = "red"
+
+
     }
+
+            depart[i].addEventListener("click", drop);
+
+
+
+}
