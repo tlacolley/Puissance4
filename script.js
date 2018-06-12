@@ -77,17 +77,9 @@ containerTab.appendChild(tab);
 
 var cell = document.getElementsByClassName("cellule");
 
-var grillLigne = document.getElementById('plateau').rows;
-var ligne = "";
-var col = "";
+var plateau = document.getElementById('plateau');
 
-for (var j = 0; j < 7; j++) {
-        var ligne = grillLigne[i]
-    for (var i = 0; i < grillLigne.length; i++) {
-
-        var col = grillLigne[j].cells;
-    }
-}
+plateau.rows[5].cells[0].style.backgroundColor = "red"
 
 // console.log(grillCell[1]);
 
