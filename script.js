@@ -1,21 +1,22 @@
-
-var matrix = [[,,,,,,],[,,,,,,],[,,,,,,],[,,,,,,],[,,,,,,],[,,,,,,],[,,,,,,],]
-
-
-
-console.log(matrix[0][1]);
-
-
-
-
-for (var i = 0; i < matrix.length; i++) {
-
-       for (var j = 0; j < 7; j++) {
-
-       }
-
-}
-
+// 
+// var matrix = [[,,,,,,],[,,,,,,],[,,,,,,],[,,,,,,],[,,,,,,],[,,,,,,],[,,,,,,]];
+//
+//
+//
+// // console.log(matrix[0][1]);
+//
+//
+//
+//
+// for (var i = 0; i < matrix.length; i++) {
+//     var matrix = [[,,,,,,],[,,,,,,],[,,,,,,],[,,,,,,],[,,,,,,],[,,,,,,],[,,,,,,]];
+//        for (var j = 0; j < 7; j++) {
+//         var p = document.createElement("p");
+//         matrix[i][j].appendChild(p);
+//        }
+//
+// }
+//     console.log(matrix[0][1]);
 
 
 
