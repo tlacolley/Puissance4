@@ -1,6 +1,6 @@
-var launcher = [,,,,,,];
+
 var body = document.getElementsByTagName("body")
-// var matrix = [[0,0,0,0,0,0],[0,0,0,0,0,0],[0,0,0,0,0,0],[0,0,0,0,0,0],[0,0,0,0,0,0],[0,0,0,0,0,0],[0,0,0,0,0,0]];
+
 
 
 //    launcher     //
@@ -15,14 +15,10 @@ for (var i = 0; i < 1; i++) {
         launch.appendChild(tr);
         for (var j = 0; j < 7; j++) {
             var td = document.createElement("td");
-            td.className = "cellule";
+            td.className = "départ";
             tr.appendChild(td);
         }
 }
-
-
-
-
 
 //    plateau de Jeux     //
 var tab = document.createElement("table");
@@ -43,17 +39,10 @@ containerTab.appendChild(tab);
 
  }
 
-// for (var i = 0; i < launcher.length; i++) {
-//
-//         tabLaunch.appendChild(cellule);
-//
-// }
-//
+function drop() {
 
-
-
-// containerTab.appendChild(matrix);
-
-// for (var i = 0; i < launcher.length; i++) {
-//     containerLaunch.appendChild(launcher[i]);
-// }
+}
+var départ = document.getElementsByClassName('départ');
+    for (var i = 0; i < départ.length; i++) {
+        départ[i].addEventListener("click", drop);
+    }
