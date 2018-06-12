@@ -3,3 +3,20 @@ h1{
     text-align: center;
     color: red;
 }
+
+#plateau{
+    border: 3px blue  outset;
+    background-color: blue;
+}
+
+
+.cellule{
+    width: 2cm;
+    height: 2cm;
+    margin: 0px;
+    padding: 0px;
+    border: 2px blue inset;
+    border-radius: 2cm;
+    background-color: white;
+
+}
