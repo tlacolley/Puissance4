@@ -1,4 +1,4 @@
-// 
+//
 // var matrix = [[,,,,,,],[,,,,,,],[,,,,,,],[,,,,,,],[,,,,,,],[,,,,,,],[,,,,,,]];
 //
 //
@@ -57,10 +57,10 @@ for (var i = 0; i < 1; i++) {
 }
 
 //    plateau de Jeux     //
-var tab = document.createElement("table");
 var containerTab = document.createElement("section");
 body[0].appendChild(containerTab);
 
+var tab = document.createElement("table");
 tab.id = "plateau"
 containerTab.appendChild(tab);
 
@@ -74,10 +74,29 @@ containerTab.appendChild(tab);
         }
 
  }
-var cell = document.getElementsByClassName("cellule")
 
- console.log(cell[7]);6
+var cell = document.getElementsByClassName("cellule");
 
+var grillLigne = document.getElementById('plateau').rows;
+var ligne = "";
+var col = "";
+
+for (var j = 0; j < 7; j++) {
+        var ligne = grillLigne[i]
+    for (var i = 0; i < grillLigne.length; i++) {
+
+        var col = grillLigne[j].cells;
+    }
+}
+
+// console.log(grillCell[1]);
+
+
+
+
+
+
+// var resultGrill =
 
 var depart = document.getElementsByClassName('depart');
     for (var i = 0; i < depart.length; i++) {
