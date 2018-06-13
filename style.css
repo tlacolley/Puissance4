@@ -33,3 +33,36 @@ h1{
     border:solid 2px black ;
     border-radius: 2cm;
 }
+
+
+
+.dropzone {
+    margin-bottom: 2em;
+}
+.dropzone td {
+    border: solid black 1px;
+    height: 50px;
+    width: 50px;
+}
+
+.dropzone td:hover {
+    cursor: pointer;
+}
+
+.puissance4 td {
+    border: solid black 1px;
+    height: 50px;
+    width: 50px;
+}
+
+.player1 {
+    background-color: red;
+}
+
+.player2 {
+    background-color: blue;
+}
+
+.player3 {
+    background-color: green;
+}
